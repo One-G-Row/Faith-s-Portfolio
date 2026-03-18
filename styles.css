@@ -87,7 +87,7 @@ margin-left:0;
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    animation: aboutAnimation 5s ease-out infinite 0.5s;
+    /* animation: aboutAnimation 5s ease-out infinite 0.5s; */
 }
 
 @keyframes aboutAnimation{
