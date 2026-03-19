@@ -360,6 +360,7 @@ aside{
 
 }
 
+
 .aside-name{
     font-family:"Lobster Two", Arial, Helvetica, sans-serif;
     font-size: 28pt;
@@ -380,7 +381,7 @@ a{
 #about-me img{
     max-width: 200px;
     max-height: 200px;
-    width: 20%;
+    width: 100%;
     height: auto;
     border-radius: 100px;
     object-fit: cover;
@@ -394,7 +395,7 @@ a{
 #contact-details, h3, span, a{
     color: #fff;
     line-height: 1.5rem;
-    margin-left: 3px;
+    margin-left: 5px;
 }
 
 /* email icon */
