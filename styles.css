@@ -604,8 +604,11 @@ footer{
     margin: 10px 30px 5px 2px;
 }
 
-nav a{
+nav{
 width: 100vw;
+}
+
+nav a{
    display: inline-flex;
     left: -6rem;
 }
