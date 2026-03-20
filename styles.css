@@ -605,6 +605,7 @@ footer{
 }
 
 nav a{
+width: 100vw;
    display: inline-flex;
     left: -6rem;
 }
