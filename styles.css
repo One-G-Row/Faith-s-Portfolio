@@ -583,6 +583,12 @@ footer{
 
 @media (max-width: 480px){
 
+    html{
+    background-color: #0A0A0A;
+    /* background: url(images/coding-background.svg); */
+}
+
+
    aside{
     width: 100vw;
     /* margin-left: -2rem; */
