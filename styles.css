@@ -21,6 +21,7 @@ body{
 
 
 h4{
+    font-size: 14pt;
     text-decoration: underline;
 }
 
@@ -122,6 +123,7 @@ border-color: greenyellow;
 
 article h3{
     font-weight: bolder;
+    font-size: 16pt;
 }
 
 article h3:hover{
@@ -153,6 +155,7 @@ border: 1px solid rgb(52, 85, 2);
 #skills h3{
     color: #fff;
     font-weight: bolder;
+    font-size: 16pt;
 }
 
 #skills h3:hover{
@@ -167,19 +170,20 @@ tbody:nth-child(odd){
     color: #ffffff;
 }
 
-tbody:nth-child(even){
+/* tbody:nth-child(even){
     background-color: #000;
-}
+} */
 
 tbody:nth-child(even):hover{
-    background-color: #0A0A0A;
+    background-color: #1a1919;
     color: #fff;
     
 }
 
 tbody:nth-child(odd):hover{
-    background-color: #f2f2f2;
-    color: #0A0A0A;
+    background-color: #313131;
+    /* background-color: #0A0A0A; */
+    color: #f2f2f2;
 }
 
 /* revamped skills to display circular graphs */
@@ -369,7 +373,7 @@ aside{
 .aside-name{
     font-family:"Lobster Two", Arial, Helvetica, sans-serif;
     font-size: 28pt;
-    padding: 0 10px 0 10px; 
+    padding: 0 5px 0 10px; 
     color: #fff;
 }
 
@@ -390,7 +394,7 @@ a{
     height: auto;
     border-radius: 100px;
     object-fit: cover;
-    margin: 30px;
+    margin: 15px 30px 5px 30px;
 }
 
  #contact-details h3{
@@ -438,6 +442,10 @@ display: inline-flex;
     border: 1px solid gray;
      padding: 10px 10px 30px 10px;
      border-radius: 10px;
+}
+
+#projects h3{
+    font-size: 16pt;
 }
 
 #projects:hover{
